@@ -1,0 +1,7 @@
+https://phpmyadmin.freedb.tech/
+
+Servidor:    sql.freedb.tech
+
+Usuario:      freedb_ADMIN_MOSHE3
+
+Contraseña:   #!zPKyTGv?6GjdT
