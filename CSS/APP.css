@@ -1,0 +1,205 @@
+/*INICIO-----------GLOBALES-----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+header {
+    background-color: rgba(150, 143, 72, 0.2);
+}
+
+footer {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    background-color: rgba(83, 133, 224, 0.2);
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    width: 100%;
+}
+/*FIN-----------GLOBALES-----------*/
+
+
+.logo {
+    margin-left: 2.5rem;
+    width: 15rem;
+    height: 15rem;
+}
+/*INICIO-----------ENCABEZADOS PRINCIPALES-----------*/
+.encabezado-principal{
+    padding: 1rem 0;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.msg-cliente-nuevo {
+    background-color: rgb(246, 206, 244);
+}
+.msg-cliente-antiguo {
+    background-color: burlywood;
+}
+/*FIN-----------ENCABEZADOS PRINCIPALES-----------*/
+
+
+/*INICIO -----------ENCABEZADOS PRINCIPALES-----------*/
+.encabezado-secundario{
+    padding: 10rem auto;
+    text-transform: uppercase;
+    margin: 2.5rem;
+    text-align: center;
+}
+/*FIN    -----------ENCABEZADOS PRINCIPALES-----------*/
+
+
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset{
+    
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: antiquewhite;
+    margin-bottom: 2rem;
+}
+legend{
+    font-size: 20px;
+
+}
+label{
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+input:not([type="submit"]),
+textarea, select{
+    padding: .5rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 0.1rem solid gray;
+    display: block;
+    margin-bottom: 2rem;
+}
+textarea {
+    height: 70px;
+}
+
+/*-------*/
+
+.alerta-error {
+    background-color: #bb1111;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: azure;
+    padding: 5px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.boton {
+    width: 100%;
+    margin-bottom: 2rem ;
+    padding: 1rem 1.2rem;
+    font-weight: bold;
+    background-color: rgb(101, 101, 255);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: 0;
+    border-radius: .5rem;
+}
+/*INICIO-----------CAJA DE MENSAJE AUTOM-----------*/
+
+.caja-mensaje-autom {
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: .5rem 2rem 1rem 2rem;
+    width: 60%;
+    border-radius: 5rem;
+}
+
+.mensaje-autom-cuerpo,
+.pie  {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+/*FIN   -----------CAJA DE MENSAJE AUTOM-----------*/
+
+
+
+/*INICIO----------- <SPAN>-----------*/
+.style-empresa{
+   color: #f30909;
+   font-weight: bold;
+
+}
+.style-cliente,
+.style-ticket,
+.style-depto,
+.style-empleado {
+   color: #fa6800;
+   font-weight: bold;
+   font-style: oblique;
+}
+/*FIN----------- <SPAN>-----------*/
+
+/*INICIO-----------SECCION TABLA-----------*/
+
+section{
+    display: flex;
+    justify-content: center;
+}
+/*FIN   -----------SECCION TABLA-----------*/
+
+/*INICIO-----------TABLA-----------*/
+.tabla {
+
+    border: solid 1px rgb(37, 33, 33);
+    margin: 0 auto;
+    width: 70%;
+}
+th{
+    border: solid 1px rgb(37, 33, 33);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #641616;
+
+}
+td{
+    border: solid 1px rgb(37, 33, 33);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenido-tabla {
+    margin: 1rem 0;
+}
+
+/*FIN   -----------TABLA-----------*/
+
+
+
